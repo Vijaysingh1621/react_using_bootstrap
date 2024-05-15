@@ -1,14 +1,16 @@
 import React from 'react'
 
 import Button from 'react-bootstrap/Button';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import  "./buttons.css";
 
 const Buttons = () => {
   return (
     <>
-    <div className="container">
+   
+    <div className="container_box">
+    <h4><b>Buttons </b></h4>
     <Button variant="primary">Primary</Button>{' '}
     <Button variant="secondary">Secondary</Button>{' '}
     <Button variant="success">Success</Button>{' '}
